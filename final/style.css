@@ -1,0 +1,82 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #5ef9f9;
+}
+#image{
+    position: absolute;
+    top: 25%;
+    left: -12%;
+    filter: drop-shadow(0 4px 5px #000);
+    -webkit-box-reflect: below -95px linear-gradient(transparent, #fff);
+}
+.content{
+    position: absolute;
+    width: 45%;
+    top: 22vh;
+    right: 10%;
+}
+.content h1{
+    color: #000000;
+    font-size: 3.3em;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+hr{
+    width: 40%;
+    height: 6px;
+    background: #e9cdcd;
+    margin: 25px 0 15px 0;
+}
+.content p{
+    color: #000000;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+}
+.content button{
+    margin-top: 25px;
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    background: #000;
+    color: #5ef9f9;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: .12em;
+    font-size: 18px;
+}
+.buttons{
+    position: absolute;
+    left: 25%;
+    bottom: 4vh;
+}
+.buttons ul{
+    list-style: none;
+    display: inline;
+}
+.buttons ul li{
+    display: inline-block;
+    margin-right: -50px;
+}
+.buttons ul li img{
+    height: 120px;
+    transition: .5s ease-out;
+    filter: drop-shadow(0 1px 2px #000);
+    -webkit-box-reflect: below -25px linear-gradient(transparent, #fff);
+    -webkit-backface-visibility: hidden;
+}
+.buttons ul li img:hover{
+    cursor: pointer;
+    transform: translateY(-35px);
+}
